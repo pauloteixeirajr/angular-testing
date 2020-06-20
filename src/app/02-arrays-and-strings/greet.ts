@@ -1,4 +1,3 @@
-
-export function greet(name) { 
-  return 'Welcome ' + name; 
+export function greet(name: string) {
+  return 'Welcome ' + name;
 }
