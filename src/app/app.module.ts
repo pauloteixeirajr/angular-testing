@@ -12,7 +12,7 @@ import { VoterComponent } from './1-voter/voter.component';
 
 import { routes } from './app.routes';
 import { UsersComponent } from './users/users.component';
-// import { NavComponent } from './nav/nav.component';
+import { NavComponent } from './nav/nav.component';
 import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
@@ -23,7 +23,7 @@ import { HighlightDirective } from './highlight.directive';
     UserDetailsComponent,
     VoterComponent,
     UsersComponent,
-    // NavComponent,
+    NavComponent,
     HighlightDirective,
   ],
   imports: [
