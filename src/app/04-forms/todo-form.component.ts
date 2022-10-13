@@ -1,9 +1,9 @@
-import { FormBuilder, Validators, FormGroup } from '@angular/forms';
+import { UntypedFormBuilder, Validators, UntypedFormGroup } from '@angular/forms';
 
 export class TodoFormComponent {
-  form: FormGroup;
+  form: UntypedFormGroup;
 
-  constructor(fb: FormBuilder) {
+  constructor(fb: UntypedFormBuilder) {
     this.form = fb.group({
       name: ['', Validators.required],
       email: [''],

@@ -1,11 +1,11 @@
-import { FormBuilder } from '@angular/forms';
+import { UntypedFormBuilder } from '@angular/forms';
 import { TodoFormComponent } from './todo-form.component';
 
 describe('TodoFormComponent', () => {
   let component: TodoFormComponent;
 
   beforeEach(() => {
-    component = new TodoFormComponent(new FormBuilder());
+    component = new TodoFormComponent(new UntypedFormBuilder());
   });
 
   it('should create a form with 2 controls', () => {
